@@ -1,9 +1,9 @@
 ---
-title: GridBlocks Add-on
+title: Grid Blocks
 description: Adds Blocks with grid-like texture.
 ---
 
-# GridBlocks
+# Grid Blocks
 
 --8<-- "back.txt"
 
