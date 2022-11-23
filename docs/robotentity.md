@@ -1,4 +1,9 @@
-# RobotEntity
+---
+title: Robot Entity
+description: Adds a Robot with multiple animations as a custom entity.
+---
+
+# Robot Entity
 
 --8<-- "back.txt"
 
