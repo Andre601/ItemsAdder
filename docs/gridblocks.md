@@ -1,3 +1,8 @@
+---
+title: GridBlocks Add-on
+description: Adds Blocks with grid-like texture.
+---
+
 # GridBlocks
 
 --8<-- "back.txt"
