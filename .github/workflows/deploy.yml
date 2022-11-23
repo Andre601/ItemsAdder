@@ -6,6 +6,7 @@ on:
     - 'docs/**'
     - 'mkdocs.yml'
     - 'theme/**'
+    - 'requirements.txt'
     branches:
     - master
 
