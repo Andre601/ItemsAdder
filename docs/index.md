@@ -1,3 +1,8 @@
+---
+title: Andre's ItemsAdder Add-ons
+description: This websites list all the Add-ons I offer for the plugin ItemsAdder
+---
+
 # ItemsAdder Add-ons
 
 Welcome to my ItemsAdder Add-ons page!

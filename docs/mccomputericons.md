@@ -1,3 +1,8 @@
+---
+title: MC Computer Icons
+description: Adds items displaying computer-related buttons, icons and actions.
+---
+
 # MC Computer Icons
 
 --8<-- "back.txt"

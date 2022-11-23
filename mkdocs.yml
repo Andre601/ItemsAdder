@@ -14,7 +14,7 @@ repo_url: https://github.com/Andre601/ItemsAdder
 
 theme:
   name: 'material'
-  #custom_dir: 'theme'
+  custom_dir: 'theme'
   favicon: 'assets/images/favicon.png'
   logo: 'assets/images/favicon.png'
   palette:

@@ -1,4 +1,9 @@
-# IAVanillaUI
+---
+title: IA Vanilla UI
+description: Replaces the default /ia GUI with a vanilla looking one.
+---
+
+# IA Vanilla UI
 
 --8<-- "back.txt"
 
