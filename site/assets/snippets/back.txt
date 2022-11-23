@@ -1,1 +1,0 @@
-[:octicons-arrow-left-24: Go Back](..){ .md-button .md-button--primary }
