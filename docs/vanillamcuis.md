@@ -259,4 +259,4 @@ Add-on comes with examples usable in [LoneDev's ChestCommands fork](https://www.
 
 ## Previews
 
-<div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/UnfitReliableCreature' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/peOxrVxB7Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
