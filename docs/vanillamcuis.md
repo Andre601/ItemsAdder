@@ -225,6 +225,7 @@ Add-on comes with examples usable in [LoneDev's ChestCommands fork](https://www.
     - `vanillamcuis:small_arrow_down_right`
     - `vanillamcuis:small_arrow_up_left`
     - `vanillamcuis:small_arrow_up_right`
+    - `vanillamcuis:smithing_ingot_slot`
     - `vanillamcuis:stonecutter_slot_active`
     - `vanillamcuis:stonecutter_slot_hover`
     - `vanillamcuis:stonecutter_slot_selected`
