@@ -9,7 +9,7 @@ descriptions: Adds recreations of vanilla GUIs (crafting, furnace, ...) to use i
 
 !!! stats "Statistics"
     :octicons-package-24: **Blocks:** None  
-    :octicons-stack-24: **Items:** [204](#items)  
+    :octicons-stack-24: **Items:** [234](#items)  
     :octicons-browser-24: **GUIs:** [23](#guis)  
     :octicons-person-24: **Entities:** None
     
