@@ -1,6 +1,6 @@
 ---
 title: Vanilla MC UIs
-descriptions: Adds recreations of vanilla GUIs (crafting, furnace, ...) to use in normal Chest GUIs.
+description: Adds recreations of vanilla GUIs (crafting, furnace, ...) to use in normal Chest GUIs.
 ---
 
 # Vanilla MC UIs
@@ -96,6 +96,36 @@ Add-on comes with examples usable in [LoneDev's ChestCommands fork](https://www.
     - `vanillamcuis:enchanting_slot_hover_left_3`
     - `vanillamcuis:enchanting_slot_hover_middle`
     - `vanillamcuis:enchanting_slot_hover_right`
+    - `vanillamcuis:enchanting_text_air`
+    - `vanillamcuis:enchanting_text_air_hover`
+    - `vanillamcuis:enchanting_text_air_inactive`
+    - `vanillamcuis:enchanting_text_ball`
+    - `vanillamcuis:enchanting_text_ball_hover`
+    - `vanillamcuis:enchanting_text_ball_inactive`
+    - `vanillamcuis:enchanting_text_demon`
+    - `vanillamcuis:enchanting_text_demon_hover`
+    - `vanillamcuis:enchanting_text_demon_inactive`
+    - `vanillamcuis:enchanting_text_dry`
+    - `vanillamcuis:enchanting_text_dry_hover`
+    - `vanillamcuis:enchanting_text_dry_inactive`
+    - `vanillamcuis:enchanting_text_hot`
+    - `vanillamcuis:enchanting_text_hot_hover`
+    - `vanillamcuis:enchanting_text_hot_inactive`
+    - `vanillamcuis:enchanting_text_light`
+    - `vanillamcuis:enchanting_text_light_hover`
+    - `vanillamcuis:enchanting_text_light_inactive`
+    - `vanillamcuis:enchanting_text_of`
+    - `vanillamcuis:enchanting_text_of_hover`
+    - `vanillamcuis:enchanting_text_of_inactive`
+    - `vanillamcuis:enchanting_text_sphere`
+    - `vanillamcuis:enchanting_text_sphere_hover`
+    - `vanillamcuis:enchanting_text_sphere_inactive`
+    - `vanillamcuis:enchanting_text_wet`
+    - `vanillamcuis:enchanting_text_wet_hover`
+    - `vanillamcuis:enchanting_text_wet_inactive`
+    - `vanillamcuis:enchanting_text_xyzzy`
+    - `vanillamcuis:enchanting_text_xyzzy_hover`
+    - `vanillamcuis:enchanting_text_xyzzy_inactive`
     - `vanillamcuis:enchanting_xp_inactive_1`
     - `vanillamcuis:enchanting_xp_inactive_2`
     - `vanillamcuis:enchanting_xp_inactive_3`
@@ -158,7 +188,7 @@ Add-on comes with examples usable in [LoneDev's ChestCommands fork](https://www.
     - `vanillamcuis:loom_pattern_diagonal_filled_tl`
     - `vanillamcuis:loom_pattern_diagonal_filled_tl_selected`
     - `vanillamcuis:loom_pattern_diagonal_filled_tr`
-    - `vanillamcuis:loom_pattern_diagonal_filled_tr_seleced`
+    - `vanillamcuis:loom_pattern_diagonal_filled_tr_selected`
     - `vanillamcuis:loom_pattern_diagonal_tlbr`
     - `vanillamcuis:loom_pattern_diagonal_tlbr_selected`
     - `vanillamcuis:loom_pattern_diagonal_trbl`
