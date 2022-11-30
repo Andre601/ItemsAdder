@@ -1,4 +1,4 @@
 nav:
-  - ItemsAdder Add-ons:
-    - index.md
-    - ...
+  - Add-ons: index.md
+  - ItemsAdder Add-ons: itemsadder
+  - CosmeticsCore Add-ons: cosmeticscore

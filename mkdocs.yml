@@ -63,6 +63,7 @@ theme:
 
 extra_css:
   - assets/stylesheets/admonitions.css
+  - assets/stylesheets/colors.css
 #extra_javascript:
 
 extra:

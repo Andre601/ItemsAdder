@@ -1,16 +1,17 @@
 ---
-title: Andre's ItemsAdder Add-ons
-description: This websites list all the Add-ons I offer for the plugin ItemsAdder
+title: Andre's Add-ons
+description: Pages for all the add-ons I offer for ItemsAdder and CosmeticsCore.
 ---
 
-# ItemsAdder Add-ons
+# Andre's Add-ons
 
-Welcome to my ItemsAdder Add-ons page!
+Welcome to my Add-ons page!
 
-This page lists all Add-ons I offer for the Premium Plugin [ItemsAdder].
+On this page can you find all the Add-ons I offer for [ItemsAdder] and [CosmeticsCore].
 
 ## :octicons-book-24: Pages
 
 {nav}
 
 [ItemsAdder]: https://www.spigotmc.org/resources/73355/
+[CosmeticsCore]: https://www.spigotmc.org/resources/105324/
