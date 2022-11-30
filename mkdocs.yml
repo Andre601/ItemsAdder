@@ -1,15 +1,15 @@
-site_name: Andre_601's ItemsAdder Add-ons
-site_description: 'A collection of all my Add-ons for ItemsAdder'
+site_name: Andre_601's Add-ons
+site_description: 'A collection of all my Add-ons for ItemsAdder and CosmeticsCore'
 site_author: 'Andre_601'
-site_url: 'https://itemsadder.andre601.ch' # Uncomment to set a canonical URL
+site_url: 'https://addons.andre601.ch' # Uncomment to set a canonical URL
 
 copyright: |
   &copy; Andre_601
 
 docs_dir: docs/
 
-repo_name: Andre601/ItemsAdder
-repo_url: https://github.com/Andre601/ItemsAdder
+repo_name: Andre601/Addons
+repo_url: https://github.com/Andre601/Addons
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
 theme:
@@ -69,7 +69,7 @@ extra_css:
 extra:
   social:
     - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/Andre601/ItemsAdder'
+      link: 'https://github.com/Andre601/Addons'
   
   #generator: true
   #manifest: manifest.webmanifest
