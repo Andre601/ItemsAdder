@@ -20,7 +20,7 @@ description: Adds recreations of vanilla GUIs (crafting, furnace, ...) to use in
 This add-on adds hundreds of items and a lot of custom font images to allow you recreating vanilla GUIs like furnaces, crafting tables, etc. without the need to use NMS code to access those.  
 Useful for people who don't have programming experience but want to display recipes and alike.
 
-Add-on comes with examples usable in [LoneDev's ChestCommands fork](https://www.spigotmc.org/resources/84790/).
+Add-on comes with examples usable in [DeluxeMenus](https://www.spigotmc.org/resources/11734/).
 
 ## Items
 
