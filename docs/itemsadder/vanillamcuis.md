@@ -9,8 +9,8 @@ description: Adds recreations of vanilla GUIs (crafting, furnace, ...) to use in
 
 !!! stats "Statistics"
     :octicons-package-24: **Blocks:** None  
-    :octicons-stack-24: **Items:** [234](#items)  
-    :octicons-browser-24: **GUIs:** [23](#guis)  
+    :octicons-stack-24: **Items:** [239](#items)  
+    :octicons-browser-24: **GUIs:** [24](#guis)  
     :octicons-person-24: **Entities:** None
     
     :octicons-mark-github-16: **Source Code:** None
@@ -84,6 +84,7 @@ Add-on comes with examples usable in [DeluxeMenus](https://www.spigotmc.org/reso
     - `vanillamcuis:category_furnace`
     - `vanillamcuis:category_loom`
     - `vanillamcuis:category_misc`
+    - `vanillamcuis:category_smithing`
     - `vanillamcuis:category_stonecutter`
     - `vanillamcuis:enchanting_lapis_lazuli_slot`
     - `vanillamcuis:enchanting_slot_active_left_1`
@@ -256,6 +257,10 @@ Add-on comes with examples usable in [DeluxeMenus](https://www.spigotmc.org/reso
     - `vanillamcuis:small_arrow_up_left`
     - `vanillamcuis:small_arrow_up_right`
     - `vanillamcuis:smithing_ingot_slot`
+    - `vanillamcuis:smithing_empty_slot_armor`
+    - `vanillamcuis:smithing_empty_slot_material`
+    - `vanillamcuis:smithing_empty_slot_smithing_template`
+    - `vanillamcuis:smithing_empty_slot_upgrade`
     - `vanillamcuis:stonecutter_slot_active`
     - `vanillamcuis:stonecutter_slot_hover`
     - `vanillamcuis:stonecutter_slot_selected`
@@ -285,6 +290,7 @@ Add-on comes with examples usable in [DeluxeMenus](https://www.spigotmc.org/reso
     - `:hopper_background:`
     - `:loom_background:`
     - `:smithing_background:`
+    - `:smithing_background_experimental:`
     - `:stonecutter_background:`
 
 ## Previews
