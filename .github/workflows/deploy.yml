@@ -7,6 +7,7 @@ on:
     - 'mkdocs.yml'
     - 'theme/**'
     - 'requirements.txt'
+    - '.github/workflows/deploy.yml'
     branches:
     - master
 
@@ -15,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Python 3.7
+    - name: Set up Python 3.x
       uses: actions/setup-python@v4
       with:
         python-version: 3.x
