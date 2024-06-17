@@ -1,4 +1,4 @@
-mkdocs-material==9.5.26
+mkdocs-material==9.5.27
 mkdocs-glightbox==0.4.0
 mkdocs-awesome-pages-plugin==2.9.2
 git+https://github.com/Andre601/mkdocs-pagenav-generator
