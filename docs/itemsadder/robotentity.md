@@ -1,37 +1,30 @@
 ---
+template: addon_info.html
+
 title: Robot Entity
 description: Adds a Robot with multiple animations as a custom entity.
+
+itemsadder:
+  entity_list:
+    - name: robot
+      animations:
+        - name: idle
+          description: Floats up and down at its location. Default animation.
+        - name: move
+          description: Moves bottom part of body slightly back. Used during movement.
+        - name: death
+          description: Falls apart into pieces. Used on death.
+        - name: wave_right
+          description: Raises and moves right arm in a greeting motion.
+        - name: wave_left
+          description: Raises and moves left arm in a greeting motion.
+
+download: 'https://www.spigotmc.org/resources/100727/'
+
+previews:
+  - link: 'https://www.youtube.com/embed/VeA3BanJiJQ'
+    type: video
 ---
-
-# Robot Entity
-
---8<-- "back.txt"
-
-!!! stats "Statistics"
-    :octicons-package-24: **Blocks:** None  
-    :octicons-stack-24: **Items:** None  
-    :octicons-browser-24: **GUIs:** None  
-    :octicons-person-24: **Entities:** [1](#entities)
-    
-    :octicons-mark-github-16: **Source Code:** None
-    
-    :octicons-download-24: **Download:** https://www.spigotmc.org/resources/100727/
 
 A simple add-on that adds a robot entity with multiple animations available.  
 It's recommended to use it on a Citizens NPC to avoid random movement.
-
-## Entities
-
-??? info "Show/Hide Entities"
-    - `robot`  
-      **Animations:**
-      
-        - `idle` - Idle animation. Floats at its current position.
-        - `move` - Moving animation. Moves body slightly back.
-        - `death` - Death animation. Falls appart.
-        - `wave_right` - Waves the right hand.
-        - `wave_left` - Waves the left hand.
-
-## Previews
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VeA3BanJiJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

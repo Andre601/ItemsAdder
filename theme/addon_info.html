@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>{{ page.title }}</h1>
+  <a class="md-button md-button--primary" href="..">
+    <span class="twemoji">{% include ".icons/octicons/arrow-left-24.svg" %}</span>
+    Go Back
+  </a>
+  {% if page.meta %}
+    {% if page.meta.itemsadder or page.meta.cosmetics %}
+      <div class="admonition stats">
+        <p class="admonition-title">Statistics</p>
+        <p>
+          {% if page.meta.itemsadder %}
+            <span class="twemoji">{% include ".icons/octicons/package-24.svg" %}</span>
+            <strong>Blocks:</strong>
+            {% if page.meta.itemsadder.block_list %}<a href="#blocks">{{ page.meta.itemsadder.block_list | length }}</a>{% else %}None{% endif %}<br>
+            <span class="twemoji">{% include ".icons/octicons/stack-24.svg" %}</span>
+            <strong>Items:</strong>
+            {% if page.meta.itemsadder.item_list %}<a href="#items">{{ page.meta.itemsadder.item_list | length }}</a>{% else %}None{% endif %}<br>
+            <span class="twemoji">{% include ".icons/octicons/browser-24.svg" %}</span>
+            <strong>GUIs:</strong>
+            {% if page.meta.itemsadder.gui_list %}<a href="#guis">{{ page.meta.itemsadder.gui_list | length }}</a>{% else %}None{% endif %}<br>
+            <span class="twemoji">{% include ".icons/octicons/person-24.svg" %}</span>
+            <strong>Entities:</strong>
+            {% if page.meta.itemsadder.entity_list %}<a href="#entities">{{ page.meta.itemsadder.entity_list | length }}</a>{% else %}None{% endif %}
+          {% endif %}
+        </p>
+        <p>
+          <span class="twemoji">{% include ".icons/octicons/mark-github-16.svg" %}</span>
+          <strong>Source Code:</strong>
+          {% if page.meta.source %}<a href="{{ page.meta.source }}" target="_blank" rel="noopener noreferrer nofollow">{{ page.meta.source }}</a>{% else %}None{% endif %}
+        </p>
+        <p>
+          <span class="twemoji">{% include ".icons/octicons/download-24.svg" %}</span>
+          <strong>Download:</strong>
+          {% if page.meta.download %}<a href="{{ page.meta.download }}" target="_blank" rel="noopener noreferrer nofollow">{{ page.meta.download }}</a>{% else %}None{% endif %}
+        </p>
+      </div>
+      
+      {% include "partials/content.html" %}
+      
+      {% if page.meta.itemsadder.block_list %}
+        <h2 id="blocks">
+          Blocks<a class="headerlink" href="#blocks" title="Permanent Link">¶</a>
+        </h2>
+        <details class="info">
+          <summary>Show/Hide Blocks</summary>
+          <ul>
+            {% for block in page.meta.itemsadder.block_list %}
+              <li><code>{{ block }}</code></li>
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
+      {% if page.meta.itemsadder.item_list %}
+        <h2 id="items">
+          Items<a class="headerlink" href="#items" title="Permanent Link">¶</a>
+        </h2>
+        <details class="info">
+          <summary>Show/Hide Items</summary>
+          <ul>
+            {% for item in page.meta.itemsadder.item_list %}
+              <li><code>{{ item }}</code></li>
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
+      {% if page.meta.itemsadder.gui_list %}
+        <h2 id="guis">
+          GUIs<a class="headerlink" href="#guis" title="Permanent Link">¶</a>
+        </h2>
+        <details class="info">
+          <summary>Show/Hide GUIs</summary>
+          <ul>
+            {% for gui in page.meta.itemsadder.gui_list %}
+              <li><code>{{ gui }}</code></li>
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
+      {% if page.meta.itemsadder.entity_list %}
+        <h2 id="entities">
+          Entities<a class="headerlink" href="#entities" title="Permanent Link">¶</a>
+        </h2>
+        <details class="info">
+          <summary>Show/Hide Entities</summary>
+          <ul>
+            {% for entity in page.meta.itemsadder.entity_list %}
+              <li>
+                <code>{{ entity.name }}</code>
+                {% if entity.animations %}<br>
+                <strong>Animations:</strong>
+                <ul>
+                  {% for animation in entity.animations %}
+                    <li><code>{{ animation.name }}</code> - {{ animation.description }}</li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
+      
+      {% if page.meta.previews %}
+        <h2 id="previews">
+          Previews<a class="headerlink" href="#previews" title="Permanent Link">¶</a>
+        </h2>
+        <p>
+          {% for preview in page.meta.previews %}
+            {% if preview.type|d('image') == "image" %}
+              <a class="glightbox" href="{{ preview.link }}" data-type="image" data-width="{{ preview.width | d('100%') }}" data-height="auto" data-desc-position="bottom">
+                <img align="left" alt="{{ preview.alt }}" loading="lazy" src="{{ preview.link }}" width="50%">
+              </a>
+            {% elif preview.type == "video" %}
+              <iframe width="560" height="315" src="{{ preview.link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {% endif %}
+          {% endfor %}
+        </p>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endblock %}

@@ -12,6 +12,9 @@ repo_name: Andre601/Addons
 repo_url: https://github.com/Andre601/Addons
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
+watch:
+  - theme
+
 theme:
   name: 'material'
   custom_dir: 'theme'
@@ -45,7 +48,7 @@ theme:
   #- toc.integrate          # Include the TOC sections in the left navugation.
   
   icon:
-    repo: 'material/library'
+    repo: 'octicons/mark-github-16'
   
   #admonition:
   #    note: 'octicons/tag-16'

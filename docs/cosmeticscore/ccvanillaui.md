@@ -5,8 +5,6 @@ description: Replaces the Wardrobe and Customization GUI with more vanilla-like 
 
 # CCVanilla UI
 
---8<-- "back.txt"
-
 !!! stats "Statistics"
     :octicons-copilot-24: **Hat Items:** None  
     :octicons-person-24: **Body Items:** None  
@@ -24,5 +22,5 @@ Instead does it replace the GUIs and cursor icons of the plugin with more vanill
 
 ## Previews
 
-![wardrobe](../../assets/images/cosmeticscore/ccvanillaui/wardrobe.png){ align=left loading=lazy width="50%" }
-![customization](../../assets/images/cosmeticscore/ccvanillaui/customization.png){ align=left loading=lazy width="50%" }
+![wardrobe](../assets/images/cosmeticscore/ccvanillaui/wardrobe.png){ align=left loading=lazy width="50%" }
+![customization](../assets/images/cosmeticscore/ccvanillaui/customization.png){ align=left loading=lazy width="50%" }

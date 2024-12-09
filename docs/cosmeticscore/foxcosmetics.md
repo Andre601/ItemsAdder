@@ -5,8 +5,6 @@ description: Adds fox ears and tails to wear.
 
 # Foxcosmetics
 
---8<-- "back.txt"
-
 !!! stats "Statistics"
     :octicons-copilot-24: **Hat Items:** [2](#hats)  
     :octicons-person-24: **Body Items:** [2](#body)  
@@ -41,7 +39,7 @@ This small cosmetics add-on adds fox ears and tails that you can wear. They mimi
 
 ## Previews
 
-![fox_back](../../assets/images/cosmeticscore/foxcosmetics/fox-back.png){ align=left loading=lazy width="50%" }
-![fox_front](../../assets/images/cosmeticscore/foxcosmetics/fox-front.png){ align=left loading=lazy width="50%" }
-![snow_fox_back](../../assets/images/cosmeticscore/foxcosmetics/snow-fox-back.png){ align=left loading=lazy width="50%" }
-![snow_fox_front](../../assets/images/cosmeticscore/foxcosmetics/snow-fox-front.png){ align=left loading=lazy width="50%" }
+![fox_back](../assets/images/cosmeticscore/foxcosmetics/fox-back.png){ align=left loading=lazy width="50%" }
+![fox_front](../assets/images/cosmeticscore/foxcosmetics/fox-front.png){ align=left loading=lazy width="50%" }
+![snow_fox_back](../assets/images/cosmeticscore/foxcosmetics/snow-fox-back.png){ align=left loading=lazy width="50%" }
+![snow_fox_front](../assets/images/cosmeticscore/foxcosmetics/snow-fox-front.png){ align=left loading=lazy width="50%" }
